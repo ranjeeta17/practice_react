@@ -1,5 +1,5 @@
 import React from 'react'
-import GrayScaleHoc from './GrayScaleHoc'
+import GreyScaleHoc from './GreyScaleHoc'
 function GrayScale(props) {
   return (
     <div>
@@ -9,6 +9,6 @@ function GrayScale(props) {
   )
 }
 
-export default GrayScaleHoc(GrayScale)
+export default GreyScaleHoc(GrayScale)
 
 

@@ -30,6 +30,9 @@ import B from './ContextAPI/B';
 import { useEffect, useState } from 'react';
 import Forms from './tasks/Forms';
 import Showdata from './tasks/Showdata';
+import GreyScale from './tasks/GreyScale';
+import  logo from './logo.svg'
+
 
 function App() {
 
@@ -96,13 +99,15 @@ function App() {
       <A/>
     </ContextProvider> */}
 
-   <>
+   {/* <>
       <Routes>
         <Route index path='/' element={<Forms arr={addDataToArr}/>} />
         <Route path='showpage' element={<Showdata arr={array}/>} />
       </Routes>
    </>
-     
+      */}
+
+    <GreyScale src={logo} alt='this is alternative' height={100} width={100}/>
 
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function GrayScaleHoc(Component) {
+function GreyScaleHoc(Component) {
   function NewComponent(props){
     return (
         <div style={{filter:"grayscale(100%)"}}>
@@ -11,4 +11,4 @@ function GrayScaleHoc(Component) {
     return NewComponent
 }
 
-export default GrayScaleHoc
+export default GreyScaleHoc
